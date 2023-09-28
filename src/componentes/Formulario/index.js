@@ -29,6 +29,7 @@ const Formulario = (props) => {
         <section className="formulario">
             <form onSubmit={aoSalvar}>
                 <h2>Preencha os dados para criar o card do colaborador</h2>
+
                 <CampoTexto 
                     obrigatorio={true}
                     label="Nome"
@@ -36,6 +37,7 @@ const Formulario = (props) => {
                     valor={nome}
                     aoAlterado={valor => setNome(valor)}
                 />
+                
                 <CampoTexto
                     obrigatorio={true}
                     label="Cargo"

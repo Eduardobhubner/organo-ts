@@ -1,7 +1,7 @@
 import Colaborador from '../Colaborador'
 import './Time.css'
 
-const Time = (props) => {
+function Time (props){
     const css = { backgroundColor: props.corSecundaria }
 
     return (
