@@ -46,7 +46,7 @@ function App() {
   const [colaboradores, setColaboradores] = useState([])
 
   const aoNovoColaboradorAdicionado = (colaborador) => {
-    debugger
+    // cria um novo array copiando o array ja existente + o novo colaborador
     setColaboradores([...colaboradores, colaborador])
   }
 
